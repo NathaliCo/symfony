@@ -1,0 +1,53 @@
+form div{
+    margin:1rem;
+}
+
+form div div{
+    display: flex;
+    justify-content: space-between;
+}
+.centradito{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    margin-top: 3rem;
+}
+.btn-guardar{
+    margin-right: auto;
+    margin-left: auto;
+    width: 10rem;
+    float:right;
+    margin-bottom: .5rem;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    width: 1.8rem;
+    color: black;
+    margin: .4rem;
+}
+
+.btn-agrega{
+    float:right;
+    margin-right: 5rem;
+    width: 10rem;
+}
+.btn-agrega a{
+    color: #1266f1;
+}
+
+.navbar-brand{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 3rem;
+}
+
+table{
+    margin-bottom: 3rem;
+}
+h1 {
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}

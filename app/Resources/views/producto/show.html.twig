@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<div class="centradito">
+    <h1>Producto</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ producto.id }}</td>
+            </tr>
+            <tr>
+                <th>Claveproducto</th>
+                <td>{{ producto.claveProducto }}</td>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <td>{{ producto.nombre }}</td>
+            </tr>
+            <tr>
+                <th>Precio</th>
+                <td>{{ producto.precio }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <a  class="btn btn-guardar btn-secondary" href="{{ path('producto_edit', { 'id': producto.id }) }}">Editar</a>
+    {{ form_start(delete_form) }}
+        <input class="btn btn-guardar btn-danger" type="submit" value="Eliminar">
+    {{ form_end(delete_form) }}
+</div>
+{% endblock %}

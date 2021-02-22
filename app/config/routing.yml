@@ -1,0 +1,4 @@
+ProductoBundle:
+    resource: "@ProductoBundle/Controller/"
+    type:     annotation
+    prefix:   /
